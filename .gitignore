@@ -141,3 +141,5 @@ cython_debug/
 reports
 .playwright-screenshots
 .idea
+.DS_store
+
