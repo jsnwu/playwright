@@ -1,0 +1,1 @@
+pytest ../tests --headed --html=../reports/report.html --browser chromium
