@@ -140,3 +140,4 @@ cython_debug/
 
 reports
 .playwright-screenshots
+.idea
