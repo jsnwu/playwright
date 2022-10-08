@@ -20,7 +20,8 @@ def pytest_runtest_makereport(item, call) -> None:
             if filename:
                 html = (
                     '<div><img src="%s" style="width:600px;height:228px;" '
-                    'onclick="window.open(this.src)" align="right"/></div>' % html_filename
+                    'onclick="window.open(this.src)" align="right"/></div>'
+                    % html_filename
                 )
                 extra.append(pytest_html.extras.html(html))
     report.extra = extra

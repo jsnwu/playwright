@@ -1,4 +1,12 @@
 # Playwright Python Frameworks
+### Features:
+* Test web search UI
+* Test rest api endpoints
+* Data driven tests
+* Run test in parallel
+* Generate HTML report
+* Basic rest api server with Flask
+
 
 ## installation
 ```shell
@@ -14,3 +22,7 @@ cd scripts
 pytest --headed 
 ```
 
+## start rest server
+```shell
+python main.py
+```

@@ -3,8 +3,10 @@ from playwright.async_api import Locator
 
 class ResultPage:
     LOC_RESULT_LINKS = 'a[data-testid="result-title-a"]'
-    LOC_SEARCH_BUTTON = '#search_button_homepage, button[type="submit"][class^="searchbox"]'
-    LOC_SEARCH_INPUT = '#search_form_input_homepage, #searchbox_input'
+    LOC_SEARCH_BUTTON = (
+        '#search_button_homepage, button[type="submit"][class^="searchbox"]'
+    )
+    LOC_SEARCH_INPUT = "#search_form_input_homepage, #searchbox_input"
 
     def __init__(self, page):
         self.page = page

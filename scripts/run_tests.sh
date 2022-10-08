@@ -1,1 +1,1 @@
-pytest ../tests --headed --html=../reports/report.html --browser chromium
+pytest ../tests --headed --workers 2 --html=../reports/report.html --browser chromium
